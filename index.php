@@ -11,7 +11,7 @@
 
 <body>
     <!-- Input for the directory of your images files -->
-    <form action="images_xml.php" method="post">
+    <form action="scan.php" method="post">
         Directory: <input type="text" name="directory">
         <input type="submit" value="Submit">
     </form> 
