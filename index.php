@@ -1,24 +1,26 @@
+<!doctype html>
 <html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+</head>
+
 <body>
+    <!-- Input for the directory of your images files -->
+    <form action="images_xml.php" method="post">
+        Directory: <input type="text" name="directory">
+        <input type="submit" value="Submit">
+    </form> 
 
-<style>
-.code-editor {
-    font-family: monospace;
-    white-space: pre;
-}
-</style>
-
-<form action="images_xml.php" method="post">
-    Directory: <input type="text" name="directory">
-    <input type="submit" value="Submit">
-</form> 
-
-<pre class="code-editor">
-    <?php
-    $xml = simplexml_load_file("images.xml") or die("File empty or not found");
-    echo htmlentities($xml->asXML());
-    ?>
-</pre>
-
+    <!-- Show the content of the images.xml files -->
+    <pre class="code-editor">
+        <?php
+        $xml = simplexml_load_file("images.xml") or die("File empty or not found");
+        echo htmlentities($xml->asXML());
+        ?>
+    </pre>
 </body>
-</html>
