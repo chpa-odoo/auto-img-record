@@ -3,5 +3,9 @@ body {
 }
 
 .form-style, .pre-style {
-    max-width: 500px;
+    max-width: 550px;
+}
+
+.btn-success {
+    padding: 10px 50px;
 }

@@ -38,7 +38,9 @@
                 </div> -->
                 <pre class="card">
                     <?php $xml = simplexml_load_file("images.xml") 
-                    or die("File empty or not found");
+                    or die("<div class='alert alert-danger' role='alert'>
+                    <strong>Warning!</strong> File not found or empty
+                    </div>");
                     echo htmlentities($xml->asXML());
                     ?>
                 </pre>
