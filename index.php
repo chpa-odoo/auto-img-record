@@ -33,9 +33,6 @@
         </div>
         <div class="row d-flex justify-content-center">
             <div class="col pre-style">
-                <!-- <div class="alert alert-success" role="alert">
-                    <strong>Well done!</strong> Your images.xml files is generated, here is a preview of the output :)
-                </div> -->
                 <pre class="card">
                     <?php $xml = simplexml_load_file("images.xml") 
                     or die("<div class='alert alert-danger' role='alert'>
