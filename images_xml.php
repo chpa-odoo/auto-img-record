@@ -1,7 +1,7 @@
 <?php
 
 // Set the directory to scan
-//$directory = '/Users/odoo/Documents/GitHub/psbe-design-custom/website_haillot/static/src/img/content';
+//exemple : $directory = '/Users/odoo/Documents/GitHub/psbe-design-custom/website_coconut/static/src/img/content';
 $directory = $_POST["directory"];
 
 // Create a variable that matches $directory but removes everything before "website_"
@@ -52,7 +52,7 @@ if (file_exists($output_file)) {
 // Write the output to the file
 file_put_contents($output_file, $output);
 
-// Redirect
+// Redirect to index 
 header("Location: index.php");
 die();
 ?>
