@@ -28,12 +28,13 @@
                         <input type="submit" value="scan" class="m-3 btn btn-success">
                     </div>
                 </form>
-                    <!-- Show the content of the images.xml files -->
+                    
             </div>
         </div>
         <div class="row d-flex justify-content-center">
             <div class="col pre-style">
                 <pre class="card">
+                    <!-- Show the content of the images.xml files -->
                     <?php $xml = simplexml_load_file("images.xml") 
                     or die("<div class='alert alert-danger' role='alert'>
                     <strong>Warning!</strong> File not found or empty
