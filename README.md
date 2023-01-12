@@ -27,3 +27,5 @@ Write the path to your modules images ine the input field, and hit scan.
 - Currently the generated images.xml will be in the main directory of this script, in the futur it will directly overwrite the one from your module (based on the input path you give)
 
 - Detect if the files is the logo and apply the right record
+
+- Convert or duplicate to a Python script 
