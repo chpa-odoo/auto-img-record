@@ -18,7 +18,7 @@ if ($handle = opendir($directory)) {
     // Loop through the directory
     while (false !== ($file = readdir($handle))) {
         // Check if the file is an image
-        if (preg_match('/\.(jpg|jpeg|png|gif)$/i', $file)) {
+        if (preg_match('/\.(jpg|jpeg|png|gif|svg|webp)$/i', $file)) {
             // Add the filename to the array 
             $filenames[] = $file;
         }
