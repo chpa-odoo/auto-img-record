@@ -6,6 +6,11 @@ body {
     max-width: 550px;
 }
 
+.pre-style .card {
+    padding: 15px;
+    /* white-space: pre-wrap; */
+}
+
 .btn-success {
     padding: 10px 50px;
 }
