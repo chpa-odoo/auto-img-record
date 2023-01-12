@@ -6,7 +6,7 @@ Simple PHP script to generate a 'images.xml' file with all ready-to-go record ba
 
 You need to run this script on a PHP server (Apache MacOs or Wamp or Mamp) and open index.php
 
-Write the path to your modules images ine the input field, and hit scan.
+Write the path to your modules images in the input field, and hit scan.
 
 ## What it will do
 
