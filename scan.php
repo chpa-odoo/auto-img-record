@@ -1,7 +1,7 @@
 <?php
 
 // Set the directory to scan
-//exemple : $directory = '/Users/odoo/Documents/GitHub/psbe-design-custom/website_coconut/static/src/img/content';
+// $directory = '/Users/odoo/Documents/GitHub/psbe-design-custom/website_haillot/static/src/img/content';
 $directory = $_POST["directory"];
 
 // Create a variable that matches $directory but removes everything before "website_"
