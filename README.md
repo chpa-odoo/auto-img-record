@@ -1,6 +1,8 @@
 # auto-img-record
 
-This is a PHP script that will : 
+## Simple PHP script to generate a 'images.xml' file with all ready-to-go record based on the content of your img/ folder.
+
+## Method :
 
 Set the directory to scan from the input
 
