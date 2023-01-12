@@ -32,12 +32,12 @@ $output .= '<odoo>'.PHP_EOL;
 
 // Loop through the filenames and add them to the XML output
 foreach ($filenames as $filename) {
-    $output .='<record id="' . pathinfo(basename($filename), PATHINFO_FILENAME) . '" model="ir.attachment">'.PHP_EOL;
-    $output .= "\t" . '<field name="name">' . pathinfo(basename($filename), PATHINFO_FILENAME) . '</field>'.PHP_EOL;
-    $output .= "\t" . '<field name="datas" type="base64" file="/' . $relative_directory . $filename . '"/>'.PHP_EOL; 
-    $output .= "\t" . '<field name="res_model">' . ir.ui.view . '</field>'.PHP_EOL; 
-    $output .= "\t" . '<field name="public" eval="True"/>'.PHP_EOL;
-    $output .='</record>'.PHP_EOL;
+    $output .= "\t" .'<record id="' . pathinfo(basename($filename), PATHINFO_FILENAME) . '" model="ir.attachment">'.PHP_EOL;
+    $output .= "\t" . "\t" .'<field name="name">' . pathinfo(basename($filename), PATHINFO_FILENAME) . '</field>'.PHP_EOL;
+    $output .= "\t" . "\t" .'<field name="datas" type="base64" file="/' . $relative_directory . $filename . '"/>'.PHP_EOL; 
+    $output .= "\t" . "\t" .'<field name="res_model">' . ir.ui.view . '</field>'.PHP_EOL; 
+    $output .= "\t" . "\t" .'<field name="public" eval="True"/>'.PHP_EOL;
+    $output .= "\t" .'</record>'.PHP_EOL;
 } 
 
 // End the XML output
