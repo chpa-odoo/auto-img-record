@@ -15,10 +15,15 @@
     <div class="container">
         <div class="row d-flex justify-content-center pb-5 pt-5">
             <div class="col text-center form-style">
+                <div class="alert alert-success" role="alert">
+                    Exemple of directory : /Users/odoo/Documents/GitHub/psbe-design-coconut/website_haillot/static/src/img/content
+                </div>
+                <div class="alert alert-warning" role="alert">
+                    <strong>Warning!</strong> Path must be absolute (!== relative)
+                </div>
                 <!-- Input for the directory of your images files -->
                 <form action="scan.php" method="post">
                     <div class="form-group" >
-                        <label for="form_scan" class="p-3">Directory to scan</label>
                         <input type="text" class="form-control" id="form_scan" placeholder="/path/to/files" name="directory">
                         <input type="submit" value="scan" class="m-3 btn btn-success">
                     </div>
