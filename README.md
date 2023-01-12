@@ -1,8 +1,12 @@
 # auto-img-record
 
-## Simple PHP script to generate a 'images.xml' file with all ready-to-go record based on the content of your img/ folder.
+Simple PHP script to generate a 'images.xml' file with all ready-to-go record based on the content of your img/ folder.
 
-## Method :
+## How to use
+
+Write the path to your modules images ine the input field, and hit scan.
+
+## What it will do
 
 Set the directory to scan from the input
 
