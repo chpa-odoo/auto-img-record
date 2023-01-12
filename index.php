@@ -17,7 +17,7 @@
     </form> 
 
     <!-- Show the content of the images.xml files -->
-    <pre class="code-editor">
+    <pre>
         <?php
         $xml = simplexml_load_file("images.xml") or die("File empty or not found");
         echo htmlentities($xml->asXML());
